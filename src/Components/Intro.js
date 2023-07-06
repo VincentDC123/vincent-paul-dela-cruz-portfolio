@@ -8,10 +8,6 @@ const Intro = () => {
                 Hello!
                 My name is Vincent Paul Dela Cruz
             </p>
-
-            <p>
-                TEST
-            </p>
         </div>
     </div>
   )
