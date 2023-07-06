@@ -14,7 +14,7 @@ const Intro = () => {
         </div>
         <div className="px-5 py-5 flex items-stretch ">
           <p className="px-5 py-5 border-double border-4 border-zinc-950">
-            <div className="py-2 font-bold text-lg flex items-center- justify-center">
+            <div className="py-2 font-bold text-lg underline flex items-center- justify-center">
               A little about myself
             </div>
             Hello! 
@@ -29,7 +29,7 @@ const Intro = () => {
           </p>
           <div className="px-0.5"></div>
           <div className="px-5 py-5 border-double border-4 border-zinc-950">
-            <div className="py-1 flex font-bold text-lg items-center justify-center">
+            <div className="py-1 flex font-bold text-lg underline items-center justify-center">
               Professional Summary
             </div>
             <p className="">
@@ -41,7 +41,7 @@ const Intro = () => {
         </div>
         <div className="px-5 py-3">
           <div className="px-5 py-5 border-double border-4 border-zinc-950 overflow-scroll no-scrollbar">
-            <div className="py-4 flex font-bold text-lg items-center justify-center">
+            <div className="py-4 flex font-bold text-lg underline items-center justify-center">
               Technical Skills
             </div>
             <p className="flex items-center justify-normal">
@@ -63,30 +63,40 @@ const Intro = () => {
               </p>
             </p>
             <div></div>
-            <p className="text-lg font-bold">
-              Databases
+            <p className="flex items-center justify-normal">
+              <p className="text-lg font-bold">
+                Databases
+              </p>
+              : MySQL, NoSQL  
             </p>
-            : MySQL, NoSQL
             <div></div>
-            <p className="text-lg font-bold">
-              Frameworks/Libraries
+            <p className="flex items-center justify-normal">
+              <p className="text-lg font-bold">
+                Frameworks/Libraries
+              </p>
+              : TailwindCSS, React  
             </p>
-            : TailwindCSS, React
             <div></div>
-            <p className="text-lg font-bold">
-              Technologies
+            <p className="flex items-center justify-normal">
+              <p className="text-lg font-bold">
+                Technologies
+              </p>
+              : Android Studio, Visual Studio Code, Intellij IDEA  
             </p>
-            : Android Studio, Visual Studio Code, Intellij IDEA
             <div></div>
-            <p className="text-lg font-bold">
-              Methodologies/Software
+            <p className="flex items-center justify-normal">
+              <p className="text-lg font-bold">
+                Methodologies/Software
+              </p>
+              : Jira, Agile Methodologies, Github  
             </p>
-            : Jira, Agile Methodologies, Github
             <div></div>
-            <p className="text-lg font-bold">
-              Languages
+            <p className="flex items-center justify-normal">
+              <p className="text-lg font-bold">
+                Languages
+              </p>
+              : English (Fluent), Tagalog (Advance)  
             </p>
-            : English (Fluent), Tagalog (Advance)
           </div>
         </div>
         <div className="py-10"></div>
