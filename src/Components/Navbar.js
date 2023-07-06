@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () => {
 
   return (
-    <div className="bg-gray-800">
+    <div className="bg-gray-800 overflow-x-scroll overflow-y-hidden">
       <div className="h-16 px-8 flex items-center justify-between">
         <img className="h-12 w-12 rounded-full" src={Image} alt=""></img>
         <div className="ml-10 flex items-baseline space-x-4">
