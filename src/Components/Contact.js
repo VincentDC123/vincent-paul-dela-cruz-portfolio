@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="h-screen w-full bg-gray-300 fixed">
         <div className="h-full w-full">
             <div className="px-5 py-5 flex items-center justify-center">
-                <div className="px-5 py-5 font-semibold text-2xl overflow-x-hidden">
+                <div className="px-5 py-5 font-semibold text-4xl overflow-x-hidden">
                     Contact Information
                 </div>
             </div>
