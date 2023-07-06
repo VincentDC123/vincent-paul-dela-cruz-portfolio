@@ -136,8 +136,10 @@ const Education = () => {
                 </p>
               </div>  
             </div>
-            
           </div> 
+          
+          {/* To add space for the bottom */}
+          <div className="py-10"></div>
         </div>
       </div>
     </div>
