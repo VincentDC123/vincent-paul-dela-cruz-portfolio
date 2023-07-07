@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div className="h-screen w-full bg-gray-300">
       <div className="px-2 py-2 font-bold text-4xl flex items-center justify-center">
-        Relevant Projects
+        Projects
       </div>
       <div className="w-full h-5/6 px-60 pt-10 pb-32">
         <div className="w-full h-full border-double border-4 border-zinc-950 overflow-hidden">
