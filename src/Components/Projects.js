@@ -65,36 +65,39 @@ const Projects = () => {
                 <div className="font-semibold text-2xl flex items-center justify-center">
                   Pictures
                 </div>
-                <div className="pt-5 pb-28 h-full overflow-y-scroll no-scrollbar">
-                  <div className="px-10">
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={mainMenu} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={inventoryManagement} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={orderList} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={suppliers} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={profile} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={customerMenu} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={shoppingCart} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={shoppingCartAddItem} alt=""></img>
-                    </div>
-                    <div className="pb-5">
-                      <img className="rounded-2xl" src={checkout} alt=""></img>
-                    </div>
-                  </div>  
+                <div className="pt-12 pb-12 h-full">
+                  <div className="h-96 overflow-y-scroll no-scrollbar ">
+                    <div className="px-10 animate-move">
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={mainMenu} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={inventoryManagement} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={orderList} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={suppliers} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={profile} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={customerMenu} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={shoppingCart} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={shoppingCartAddItem} alt=""></img>
+                      </div>
+                      <div className="pb-5">
+                        <img className="rounded-2xl" src={checkout} alt=""></img>
+                      </div>
+                    </div>  
+                  </div>
+                    
                 </div>
             </div>
           </div>
