@@ -25,38 +25,37 @@ const Projects = () => {
           </div>
 
           <div className="w-full h-full flex items-stretch justify-between">
-            <div className="">
+            <div className="max-w-1/2 w-full">
               <div className="text-2xl font-semibold flex items-center justify-center">
                 Description
               </div>
-              <div className="px-5 py-5 overflow-y-scroll no-scrollbar">
+              <div className="px-5 py-5 text-justify overflow-y-scroll no-scrollbar">
                 <div>
-                  WMS is an inventory management system for businesses that keeps track of stock and selling goods. The
-                  application can also be used by customers to order items.
+                The Warehouse Management System (WMS) is a comprehensive inventory management application developed in 
+                Java using Android Studio. It empowers businesses to efficiently track stock, manage selling goods, and 
+                offers customers the convenience of ordering items through a user-friendly interface. 
+                The system utilizes AWS DynamoDB as its backend, ensuring seamless storage of crucial data such as inventory 
+                and customer/employee information. Key technologies employed include AWS Cognito, Amplify, Appsync, and GraphQL.
                 </div>
                 <ul className="list-disc list-outside ms-8">
                   <li>
-                    Programmed in Java using Android Studio
+                    Led the end-to-end development and implementation of the WMS application, 
+                    contributing to core strategies and shaping the product roadmap.
                   </li>
                   <li>
-                    Uses AWS DynamoDB as backend to store all relevant data 
-                    (inventory and customer/employee information).
+                    Oversaw the design and design implementation processes, 
+                    ensuring alignment with project goals and user experience.
+                  </li>
+                  <li>
+                    Effectively manage bi-weekly scrum meetings and sprint planning sessions, 
+                    fostering collaboration and progress tracking among team members.
+                  </li>
+                  <li>
+                    Utilized Atlassian Jira for progress reporting and seamless collaboration during the project lifecycle.
                   </li>
                 </ul>
                 <div>
-                  Oversaw and contributed to core strategies, product roadmap, ops, designs, and design implementations.
-                </div>
-                <div>
-                  Led the bi-weekly scrum meetings and sprint planning.
-                </div>
-                <ul className="list-disc list-outside ms-8">
-                  <li>
-                    The scrum meetings and sprint planning took place in Atlassian Jira for progress reports and
-                    collaborations
-                  </li>
-                </ul>
-                <div>
-                  Contains: Java, AWS DynamoDB, AWS Cognito, Android Studio, Amplify, Appsync, GraphQL
+                  Key technologies utilized: Java, Android Studio, AWS DynamoDB, AWS Cognito, AWS Amplify, AWS Appsync.
                 </div>
               </div>
             </div>
@@ -65,8 +64,8 @@ const Projects = () => {
                 <div className="font-semibold text-2xl flex items-center justify-center">
                   Pictures
                 </div>
-                <div className="pt-12 pb-12 h-full">
-                  <div className="h-96 overflow-y-scroll no-scrollbar ">
+                <div className="pt-12 pb-12 h-full max-w-1/2 w-full">
+                  <div className="h-4/6 overflow-y-scroll no-scrollbar">
                     <div className="px-10 animate-move">
                       <div className="pb-5">
                         <img className="rounded-2xl" src={mainMenu} alt=""></img>
@@ -110,28 +109,33 @@ const Projects = () => {
               Weather Application
             </div>
             <div className="w-full h-full flex items-stretch justify-between">
-              <div className="max-w-1/2 w-1/2">
+              <div className="max-w-1/2 w-full">
                 <div className="text-2xl font-semibold flex items-center justify-center">
                   Description
                 </div>
-                <div className="px-5 py-5 overflow-y-scroll no-scrollbar">
+                <div className="px-5 py-5 text-justify overflow-y-scroll no-scrollbar">
                   <div>
-                    Weather Application displays current weather and Fahrenheit on inputted location.
+                  The Weather Application is a user-friendly mobile app designed to display real-time weather and Fahrenheit temperature for a specified location. 
+                  Developed using Java and Android Studio, the application leverages the power of the OpenWeatherMap API to retrieve relevant weather data and 
+                  present it in an intuitive and accessible manner.
                   </div>
                   <ul className="list-disc list-outside ms-8">
                     <li>
-                      Programmed in Java using Android Studio.
+                      Seamless display of current weather conditions for user-inputted locations.
                     </li>
                     <li>
-                      Uses OpenWeatherMap api to get relevant data.
+                      Real-time updates of Fahrenheit/Celsius temperature for the selected location.
+                    </li>
+                    <li>
+                      Intuitive user interface for ease of navigation and data visualization.
                     </li>
                   </ul>
                   <div>
-                    Contains: Java, Android Studio, OpenWeatherMap API
+                    Key technologies utilized: Java, Android Studio, OpenWeatherMap API
                   </div>
                 </div>
               </div>
-              <div className="max-w-1/2 w-1/2">
+              <div className="max-w-1/2 w-full">
                 <div className="font-semibold text-2xl flex items-center justify-center">
                   Pictures
                 </div>
@@ -154,32 +158,37 @@ const Projects = () => {
               Stock Web Scraper
             </div>
             <div className="w-full h-full flex items-stretch justify-between">
-              <div className="max-w-1/2 w-1/2">
+              <div className="max-w-1/2 w-full">
                 <div className="text-2xl font-semibold flex items-center justify-center">
                   Description
                 </div>
-                <div className="px-5 py-5 overflow-y-scroll no-scrollbar">
+                <div className="px-5 py-5 text-justify overflow-y-scroll no-scrollbar">
                   <div>
-                    Stock Web Scraper is a website that uses data that was scraped from Yahoo Finance’s S&P 500. The data
-                    includes company, symbol, and price  
+                    The Stock Web Scraper is a dynamic website that utilizes data scraped from Yahoo Finance's S&P 500 to provide valuable information about various companies. 
+                    This data includes company details, symbols, and current prices. 
+                    The application is programmed using Java in Intellij IDEA for the backend and React JS in Visual Studio Code for the frontend. 
+                    It leverages Spring Data JPA to establish a seamless connection to the database, and a REST API is created from the scraped data to ensure smooth and efficient data retrieval.  
                   </div>
                   <ul className="list-disc list-outside ms-8">
                     <li>
-                      Programmed in Java using Intellij IDEA with React JS using Visual Studio Code.
+                      Developed a robust web scraper to collect essential data from Yahoo Finance’s S&P 500, ensuring accurate and up-to-date information for users.
                     </li>
                     <li>
-                      Uses Spring Data JPA to connect to the database.
+                      Implemented a user-friendly frontend using React JS and TailwindCSS, enabling seamless navigation and a visually appealing experience.
                     </li>
                     <li>
-                      Uses REST API created from data scraped from yahoo finance’s S&P 500
+                      Utilized Spring Data JPA to establish a reliable and efficient connection to the database, facilitating smooth data management.
+                    </li>
+                    <li>
+                      Created a REST API to serve the scraped data, providing users with real-time access to company details and stock prices.
                     </li>
                   </ul>
                   <div>
-                    Contains: Java, React JS, TailwindCSS, Spring Data JPA, mySQL, Intellij IDEA, Visual Studio Code
+                    Key technologies utilized: Java, React JS, TailwindCSS, Spring Data JPA, MySQL, Intellij IDEA, Visual Studio Code
                   </div>
                 </div>
               </div>
-              <div className="max-w-1/2 w-1/2">
+              <div className="max-w-1/2 w-full">
                 <div className="font-semibold text-2xl flex items-center justify-center">
                   Pictures
                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div className="h-screen w-full bg-gray-300 fixed">
-      <div className="h-full w-full overflow-y-scroll no-scrollbar">
+      <div className="px-40 pt-10 h-full w-full overflow-y-scroll no-scrollbar">
         <div className="px-5 py-5 flex items-start justify-between">
           <div className="px-2 text-3xl font-bold">
             Vincent Paul Dela Cruz
@@ -12,7 +12,7 @@ const Intro = () => {
             Software Engineer
           </div>
         </div>
-        <div className="px-5 py-5 flex items-stretch ">
+        <div className="px-5 py-5 text-justify flex items-stretch ">
           <p className="px-5 py-5 border-double border-4 border-zinc-950">
             <div className="py-2 font-bold text-lg underline flex items-center- justify-center">
               A little about myself
@@ -28,7 +28,7 @@ const Intro = () => {
             Some of the projects that I have done in the past years are Warehouse Management System, Weather App, and a Stock Web Scraper.
           </p>
           <div className="px-0.5"></div>
-          <div className="px-5 py-5 border-double border-4 border-zinc-950">
+          <div className="px-5 py-5 text-justify border-double border-4 border-zinc-950">
             <div className="py-1 flex font-bold text-lg underline items-center justify-center">
               Professional Summary
             </div>
@@ -40,7 +40,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="px-5 py-3">
-          <div className="px-5 py-5 border-double border-4 border-zinc-950 overflow-scroll no-scrollbar">
+          <div className="px-5 py-5 text-justify border-double border-4 border-zinc-950 overflow-scroll no-scrollbar">
             <div className="py-4 flex font-bold text-lg underline items-center justify-center">
               Technical Skills
             </div>
